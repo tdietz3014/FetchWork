@@ -15,7 +15,7 @@ function retrieve(apiObjCall){
     new Promise(function(resolve, reject){
         
         var size = Object.keys(apiObjCall).length;
-        for(var x = 0; x++; x<=size){
+        for(var x = 0; x++; x<size){
             fetch(window.path)
         }
         resolve();
