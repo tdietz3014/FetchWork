@@ -36,7 +36,7 @@ function retrieve(apiObjCall){
             previousPage: 0,
             nextPage: 0
         }
-        resolve();
+        resolve(dataReturn);
         
     });
 }
